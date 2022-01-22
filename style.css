@@ -1,0 +1,162 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 400px;
+}
+
+.logo  {
+    font-size: 24px;
+}
+
+h1  {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header { 
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+ul  {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.firstInfo {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.sign-up {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.header-image {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.littleimage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #E5E7EB;
+    font: 36px lighter italic #1F2937;
+}
+
+figcaption {
+    align-self: flex-end;
+    margin-right: 560px;
+    font-weight: bold;
+}
+
+
+.card {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.last-section {
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.card-first {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#last-button {
+    border: 1px solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin-top: auto;
+}
